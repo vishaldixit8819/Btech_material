@@ -1,0 +1,14 @@
+sale = int(input("enter the sale amount"))
+if sale>=10000:
+    discount=10/100*sale
+    print("Discount will be given on sale is",discount)
+    a=(sale-discount)
+    print("exact price",a)
+elif sale<10000:
+    discount=5/100*sale
+    print("Discount will be given on sale is",discount)
+    a=(sale-discount)
+    print(a)
+cp=int(input("enter the cost price")) 
+b=("net profit=",a-cp)
+print(b)
